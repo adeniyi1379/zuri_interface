@@ -151,8 +151,11 @@ footer > p{
 }
 /* media queries */
 @media screen and (max-width: 768px){
+    #main{
+        height: 80vh;
+    }
     #main .container{
-        width: 90%;
+        width: 95%;
     }
     #main a{
         margin: 20px auto;
